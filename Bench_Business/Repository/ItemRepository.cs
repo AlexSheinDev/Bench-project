@@ -6,6 +6,7 @@ using Bench_Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace Bench_Business.Repository
 {
@@ -55,7 +56,7 @@ namespace Bench_Business.Repository
             return new ItemDTO();
         }
 
-        public IEnumerable<ItemDTO> GetAll()
+        public async Task<IEnumerable<ItemDTO>> GetAll()
         {
             return _mapper.Map<IEnumerable<Item>, IEnumerable<ItemDTO>>(_db.Items);
         }
