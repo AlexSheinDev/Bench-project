@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Bench_Server": {
+    "BenchWeb_Server": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

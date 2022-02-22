@@ -1,6 +1,6 @@
 using System;
 
-namespace Bench_Server.Data
+namespace BenchWeb_Server.Data
 {
     public class WeatherForecast
     {

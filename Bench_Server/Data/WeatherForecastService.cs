@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Bench_Server.Data
+namespace BenchWeb_Server.Data
 {
     public class WeatherForecastService
     {
